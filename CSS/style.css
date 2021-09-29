@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Bhaina+2&display=swap');
 * {
     margin: 0;
     padding: 0;
@@ -6,6 +7,9 @@
 body {
     background-color: #F5F5F5;
 }
+
+
+
 /*nav styling starts from here */
 nav {
     width: 100%;
@@ -37,6 +41,156 @@ nav {
     margin: 10px 0px;
 }
 .menu {
+    width: 45%;
+    margin-left: 10%;
+    /* border: 1px solid red; */
     display: flex;
     align-items: center;
+    justify-content: space-evenly;
+}
+.item * {
+    color: #c6ddec;
+}
+.item *:hover {
+    color: white;
+}
+.item h6 {
+    text-align: center;
+}
+.item i {
+    font-size: 1.5rem;
+    margin-bottom: 7px;
+}
+.menu-margin{
+    margin-top: 2px 0px;
+}
+.menu-6 * {
+    color: #c6ddec;
+}
+.menu-6 *:hover {
+    color: white;
+}
+.menu-6 img{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+}
+.caret {
+    width: 0px;
+    height: 0px;
+    border-top: 5px solid #c6ddec;
+    border-right: 5px solid transparent;
+    border-bottom: 5px solid transparent;
+    border-left: 5px solid transparent;
+    position: relative;
+    top: 10px;
+    left: 5px;
+}
+.divider {
+    height: 60px;
+    width: 0.2px;
+    background-color: #c6ddec;
+}
+.work {
+    width: 8%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+.workBox {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 5px;
+}
+.row * {
+    width: 5px;
+    height: 5px;
+    background-color: #c6ddec;
+    margin: 1px 1px;
+}
+.row {
+    display: flex;
+}
+.workContent h6 {
+    font-size: 0.7rem;
+    color: #c6ddec;
+}
+.extraContent{
+    font-size: 1rem;
+    font-family: sans-serif;
+    width: 15%;
+    text-align: center;
+    color: #C8A561;
+}
+.extraContent:hover {
+    text-decoration: underline;
+}
+
+
+/*Ads section starts here */
+.ads-section {
+    width: 100%;
+    text-align: center;
+    margin: 15px 0px;
+}
+.ad-content-1 {
+    color: blue;
+    font-size: 1rem;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 700;
+}
+.ad-content-2 {
+    font-size: 1rem;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 700;
+}
+.ad-content-3 {
+    margin: 0px 5px;
+    font-size: 0.8rem;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+/*main section styling starts here */
+.main-section {
+    width: 80%;
+    margin: auto;
+    display: flex;
+}
+.user-profile {
+    width: 20%;
+}
+.profileHeaderBackground {
+    width: 100%;
+    height: 70px;
+    background: rgb(45, 45, 80);
+}
+.profile-details {
+    border: 1px solid black;
+}
+.profile-details img {
+    width: 70px;
+    height: 70px;
+    border: 2px solid white;
+    border-radius: 50%;
+    position: relative;
+    bottom: 30px;
+    left: 30%;
+}
+.profile-details h3 {
+    font-size: 1rem;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: 10px;
+    position: relative;
+    bottom: 20px;
+}
+.profile-details h6 {
+    font-size: 0.8rem;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 10px 0px;
+    position: relative;
+    bottom: 20px;
 }
