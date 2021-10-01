@@ -15,6 +15,10 @@ nav {
     width: 100%;
     height: 60px;
     background-color: #283C4A;
+    position: sticky;
+    top: 0px;
+    left: 0px;
+    z-index: 10;
 }
 .navContent {
     display: flex;
@@ -157,7 +161,12 @@ nav {
     width: 80%;
     margin: auto;
     display: flex;
+    z-index: 1;
 }
+/* ################################################################################################# */
+
+
+/*user profile and hashtag styling starts here */
 .user-profile {
     width: 20%;
 }
@@ -167,7 +176,8 @@ nav {
     background: rgb(45, 45, 80);
 }
 .profile-details {
-    border: 1px solid black;
+    border: 1px solid lightblue;
+    background-color: white;
 }
 .profile-details img {
     width: 70px;
@@ -194,3 +204,130 @@ nav {
     position: relative;
     bottom: 20px;
 }
+.horizantal-divider {
+    width: 100%;
+    height: 1px;
+    background-color: black;
+    position: relative;
+    bottom: 20px;
+}   
+.profile-extra-info-content {
+    width: 100%;
+    /* border: 1px solid red; */
+}
+.profile-extra-info-content * {
+    text-align: left;
+}
+.figure-numbers {
+    color: blue;
+    font-weight: bold;
+}
+.first-number {
+    margin-left: 10px;
+}
+.second-number {
+    margin-left: 86px;
+}
+.profile-extra-info > h6 {
+    font-size: 1px;
+    margin-right: 150px;
+}
+.userFollowedTags {
+    width: 100%;
+    height: auto;
+    margin: 10px 0px;
+    border: 1px solid lightblue;
+    background-color: white;
+    position: sticky;
+    top: 70px;
+}
+
+/*user profile and hashtag styling ends here */
+
+/* ######################################################################################### */
+
+/*timeline post feed section styling starts here */
+.timelinePost {
+    width: 48%;
+    /* border: 1px solid red; */
+    margin: 0px 2%;
+    display: flex;
+    flex-direction: column;
+}
+.writePost {
+    border: 1px solid green;
+    width: 100%;
+    height: 150px;
+    margin-bottom: 10px;
+}
+.post {
+    margin-bottom: 10px;
+}
+.post1 {
+    border: 1px solid blue;
+    height: 500px;
+}
+.post2 {
+    border: 1px solid rgb(0, 255, 221);
+    height: 500px;
+}
+
+
+/*timeline post feed section styling starts here */
+
+/* #################################################################################### */
+
+/*suggested content section styling starts here */
+.suggestedContent {
+    width: 30%;
+    height: 600px;
+    border: 1px solid lightblue;
+    background-color: white;
+}
+.followPage {
+    margin: 30px 0px;
+    padding: 0px 10px;
+    height: 250px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.followPage h4 {
+    color: blue;
+    font-weight: lighter;
+}
+.suggested-page div {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+.suggested-page div span {
+    font-size: 15px;
+    margin: 0px 5px;
+}
+.follow-button {
+    width: 100px;
+    height: 30px;
+    background-color: white;
+    border: 1px solid blue;
+    color: blue;
+}
+.follow-button:hover {
+    border: 2px solid blue;
+    font-weight: bold;
+    background-color: lightblue;
+}
+.suggested-page {
+    display: flex;
+    justify-content: space-between;
+}
+.suggested-page img {
+    width: 30px;
+    height: 30px;
+}
+.suggestedContentDivider {
+    width: 100%;
+    background-color: lightblue;
+    height: 1px;
+}
+/*suggested content section styling ends here */
